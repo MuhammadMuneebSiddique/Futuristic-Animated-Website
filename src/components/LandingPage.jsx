@@ -56,7 +56,7 @@ const LandingPage = () => {
     // console.log(videoRef.current.duration)
   return (
     <section className='landing-page bg-bg h-screen w-full overflow-hidden flex-center'>
-        <div className='relative container max-w-full h-full md:max-w-[90%] md:h-[90%] outline-none overflow-hidden md:rounded-[5vw] bg-bg'>
+        <div className='relative container max-w-full h-full bg-[#D4E1E9] md:max-w-[90%] md:h-[90%] outline-none overflow-hidden md:rounded-[5vw]'>
             <video ref={videoRef} id='video' muted className='w-full h-full object-cover md:rounded-[5vw]' src="/ai-face.mp4"></video>
             <div className='w-full h-full absolute top-0 left-0 bg-transparent'></div>
             <img className='w-[25vw] hidden md:block object-cover z-10 absolute top-[-1vh] left-[-1vw] rotate-180' src="/clip-shape.png" alt="image" />
